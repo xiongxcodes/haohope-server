@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.xiongxcodes</groupId>
+		<artifactId>haohope-server</artifactId>
+		<version>${revision}</version>
+	</parent>
+	<artifactId>haohope-resourceserver-spring-boot-starter</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.xiongxcodes</groupId>
+			<artifactId>api-boot-starter-distributedlock</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.xiongxcodes</groupId>
+			<artifactId>api-boot-starter-globalexception</artifactId>
+		</dependency>
+		<!--ApiBoot Http Converter -->
+		<dependency>
+			<groupId>com.github.xiongxcodes</groupId>
+			<artifactId>api-boot-starter-http-converter</artifactId>
+		</dependency>
+		<!--ApiBoot Swagger -->
+		<dependency>
+			<groupId>com.github.xiongxcodes</groupId>
+			<artifactId>api-boot-starter-swagger</artifactId>
+		</dependency>
+		<!--ApiBoot Logging -->
+		<dependency>
+			<groupId>com.github.xiongxcodes</groupId>
+			<artifactId>api-boot-starter-logging</artifactId>
+		</dependency>
+		<!--ApiBoot Security Oauth -->
+		<dependency>
+			<groupId>com.github.xiongxcodes</groupId>
+			<artifactId>api-boot-starter-security-oauth-jwt</artifactId>
+		</dependency>
+		<!--MySQL -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+		</dependency>
+	</dependencies>
+</project>
