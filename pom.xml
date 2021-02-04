@@ -32,6 +32,26 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!-- 
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+		</dependency>
+		 -->
+	</dependencies>
 	<developers>
 		<developer>
 			<id>xiongx</id>
@@ -182,5 +202,6 @@
 		<module>haohope-authorizationserver-spring-boot-starter</module>
 		<module>haohope-resourceserver-spring-boot-starter</module>
 		<module>haohope-server-denpendencies</module>
+		<module>haohope-server-samples</module>
 	</modules>
 </project>

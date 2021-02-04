@@ -1,0 +1,13 @@
+api:
+  boot:
+    security:
+      away: memory
+      users:
+        - username: hengboy
+          password: 123456
+    oauth:
+      server: resource
+      away: jdbc
+      jwt:
+        enable: true
+        sign-key: 123456
